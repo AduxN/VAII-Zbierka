@@ -1,0 +1,40 @@
+body {
+    background-image: url("./img/sky.jpg");
+    height: 100%;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+img.slnko {
+    display: inline;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-top:-128px;
+    margin-left: -128px;
+}
+
+.vtacik {
+    background-image: url("./img/bird.png");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.top {
+    top: 0;
+}
+.bottom {
+    bottom: 0;
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+.flip {
+    transform: scaleX(-1);
+}
