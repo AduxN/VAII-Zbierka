@@ -1,6 +1,47 @@
-table, th, td {
-    border: 1px solid;
+table , th, td {
+    border: 1px solid black;
+
 }
 table {
     border-collapse: collapse;
+}
+th {
+    background-color: rgb(10,200,150);
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-color: black;
+    position: sticky;
+    top: -1px;
+}
+th:first-letter {
+    color: yellow;
+}
+.surname {
+    text-transform: uppercase;
+}
+
+td.nums {
+    text-align: center;
+}
+
+
+tr:hover td.name {
+    color: red;
+    border-color: black;
+}
+
+tr:hover td.name:hover {
+    color: black;
+}
+
+tr:nth-child(odd){
+    background-color:lightgrey;
+}
+
+tr:hover {
+    background-color: darkgray;
+}
+.vysledok {
+    display: none;
 }
