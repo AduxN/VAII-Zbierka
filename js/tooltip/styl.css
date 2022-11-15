@@ -1,0 +1,4 @@
+div[data-tooltip] {
+    display: inline;
+    font-weight: bold;
+}
